@@ -18,6 +18,9 @@ metadata:
     - url: https://jira.eng.vmware.com/projects/TAPI
       title: Backlog
       icon: help
+    - url: https://runway-ci.eng.vmware.com/teams/tap-integrations/pipelines/jenkins-adapter
+      title: CI
+      icon: help  
 spec:
   type: service
   lifecycle: production
