@@ -1,37 +1,27 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: jenkins-adaptor
+  description: Jenkins Adaptor
   tags:
-    - java
-    - data
+    - golang
+    - tekton
+    - cli
+    - jenkins
   links:
-    - url: https://example.com/user
-      title: Examples Users
+    - url: https://gitlab.eng.vmware.com/tap-integrations/jenkins-adapter
+      title: Source
       icon: user
-    - url: https://example.com/group
-      title: Example Group
-      icon: group
-    - url: https://example.com/cloud
-      title: Link with Cloud Icon
-      icon: cloud
-    - url: https://example.com/dashboard
-      title: Dashboard
-      icon: dashboard
-    - url: https://example.com/help
-      title: Support
+    - url: https://gitlab.eng.vmware.com/tap-integrations/jenkins-adapter
+      title: Contribution Guide
       icon: help
-    - url: https://example.com/web
-      title: Website
-      icon: web
-    - url: https://example.com/alert
-      title: Alerts
-      icon: alert
+    - url: https://jira.eng.vmware.com/projects/TAPI
+      title: Backlog
+      icon: help
 spec:
   type: service
-  lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
-  dependsOn: ['resource:artists-db']
+  lifecycle: production
+  owner: integrations
+  system: tap
+  dependsOn: ['component:tekton']
   apiConsumedBy: ['component:www-artist']
