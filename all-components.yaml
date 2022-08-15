@@ -6,4 +6,6 @@ metadata:
 spec:
   targets:
     - ./components/jenkins-adaptor.yaml
+    - ./components/flux.yaml
+    - ./components/external-secrets.yaml
     - ./components/tekton.yaml
