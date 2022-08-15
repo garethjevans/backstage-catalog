@@ -1,13 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: jenkins-adaptor
-  description: Jenkins Adaptor
+  name: tekton
+  description: Tekton
   tags:
-    - golang
     - tekton
-    - cli
-    - jenkins
   links:
     - url: https://gitlab.eng.vmware.com/tap-integrations/jenkins-adapter
       title: Source
@@ -18,12 +15,8 @@ metadata:
     - url: https://jira.eng.vmware.com/projects/TAPI
       title: Backlog
       icon: help
-    - url: https://runway-ci.eng.vmware.com/teams/tap-integrations/pipelines/jenkins-adapter
-      title: CI
-      icon: help  
 spec:
   type: service
   lifecycle: production
   owner: integrations
   system: tap
-  dependsOn: ['component:tekton']
