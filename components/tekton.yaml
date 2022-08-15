@@ -18,5 +18,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: integrations
+  owner: group:integrations
   system: tap
