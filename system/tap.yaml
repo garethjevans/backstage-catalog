@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: tap
+  description: Tanzu Application Platform
+spec:
+  owner: artist-relations-team
+  domain: artists

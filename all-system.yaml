@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tap-systems
+  description: A collection of all systems
+spec:
+  targets:
+    - ./system/tap.yaml
