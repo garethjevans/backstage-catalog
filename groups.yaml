@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: tap-groups
+  description: A collection of all TAP groups
+spec:
+  targets:
+    - ./groups/integrations.yaml

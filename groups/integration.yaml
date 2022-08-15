@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: integrations
+  description: The integrations team
+spec:
+  type: business-unit
+  profile:
+    displayName: Integrations
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  members: [jdoe]
