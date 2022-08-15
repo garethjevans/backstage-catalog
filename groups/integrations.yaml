@@ -10,3 +10,4 @@ spec:
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   members: [jdoe]
+  children: []
