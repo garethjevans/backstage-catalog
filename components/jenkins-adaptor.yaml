@@ -1,6 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml 
+    backstage.io/source-location: url:https://github.com/my-org/my-service/
   name: jenkins-adaptor
   description: Jenkins Adaptor
   tags:
