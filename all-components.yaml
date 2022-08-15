@@ -8,4 +8,5 @@ spec:
     - ./components/jenkins-adaptor.yaml
     - ./components/flux.yaml
     - ./components/external-secrets.yaml
+    - ./components/external-secrets-cli.yaml
     - ./components/tekton.yaml
