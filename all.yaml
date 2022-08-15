@@ -8,3 +8,4 @@ spec:
     - ./all-components.yaml
     - ./all-groups.yaml
     - ./all-users.yaml
+    - ./all-system.yaml
